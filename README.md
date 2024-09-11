@@ -50,24 +50,19 @@ This project is designed to evaluate the responses of large User and bot convers
    npm install
    ```
 
-2. **Create .env file**:
+2. **Update .env file**:
    In the \`backend\` directory, rename \`.env.example\` file to \`.env\`. Add your OpenAI API key.
-
-   ```
-   touch .env
-   ```
 
    Example \`.env\` file content:
 
    ```
    OPENAI_API_KEY=your-openai-api-key
-   PORT=3000
    ```
 
 3. **Run the backend server**:
 
    ```
-   npm start
+   npm run start
    ```
 
    The backend server should now be running on \`http://localhost:3000\`.
